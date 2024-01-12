@@ -1,9 +1,7 @@
 window:
-  decorations: buttonless
   padding:
     x: 8
     y: 8 
-  dynamic_padding: true
   dimensions:
     columns: 120
     lines: 64
