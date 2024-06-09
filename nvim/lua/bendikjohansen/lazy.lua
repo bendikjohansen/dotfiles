@@ -26,7 +26,7 @@ require("lazy").setup({
 
     { 'williamboman/mason.nvim' },
     { 'williamboman/mason-lspconfig.nvim' },
-    { 'VonHeikemen/lsp-zero.nvim',        branch = 'v3.x' },
+    { 'VonHeikemen/lsp-zero.nvim', branch = 'v3.x' },
     { 'neovim/nvim-lspconfig' },
     { 'hrsh7th/cmp-nvim-lsp' },
     { 'hrsh7th/nvim-cmp' },
@@ -39,4 +39,8 @@ require("lazy").setup({
     },
     { "savq/melange-nvim" },
     { "github/copilot.vim" },
+    {
+        "nvim-tree/nvim-tree.lua",
+        dependencies = { { "nvim-tree/nvim-web-devicons" } },
+    },
 })

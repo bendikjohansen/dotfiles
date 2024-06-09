@@ -4,6 +4,9 @@ disabled = true
 [dotnet]
 disabled = true
 
+[gcloud]
+disabled = true
+
 [java]
 disabled = true
 
