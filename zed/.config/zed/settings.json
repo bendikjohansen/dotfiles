@@ -1,0 +1,12 @@
+{
+  "theme": "Catppuccin Mocha",
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "restore_on_startup": "none",
+  "project_panel": {
+    "dock": "right"
+  },
+  "toolbar": {
+    "quick_actions": false
+  }
+}

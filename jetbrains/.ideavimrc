@@ -1,0 +1,22 @@
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+
+let mapleader = " "
+
+set scrolloff=5
+set incsearch
+set number
+set relativenumber
+set clipboard+=unnamed
+
+map <leader>f <Action>(ReformatCode)
+map <leader>c <Action>(CommentByLineComment)
+map <leader><leader> <Action>(IdeaVim.ReloadVimRc.reload)
+map gi <Action>(ReSharperGotoImplementation)
+map <leader>ro <Action>(OverrideMethods)
+
+map <leader>d <Action>(Debug)
+map <leader>dt <Action>(RiderUnitTestDebugContextAction)
+map <leader>rt <Action>(RiderUnitTestRunContextSplitAction)
+
+set ideajoin

@@ -1,2 +1,0 @@
---vim.cmd.colorscheme "catppuccin-frappe"
---vim.cmd.colorscheme "melange"
