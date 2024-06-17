@@ -1,8 +1,11 @@
 #!/bin/zsh
 
-# check if homebrew is installed
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew bundle --no-upgrade
+if [ ! -d /opt/homebrew ]; then
+    echo "Installing Homebrew..."
+    /bin/zsh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    echo "Homebrew installed."
+fi
+brew bundle --no-upgrade --no-lock --quiet
 
 if [ ! -d $HOME/.zsh/zsh-autosuggestions ]; then
     git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh/zsh-autosuggestions

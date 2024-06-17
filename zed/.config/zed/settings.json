@@ -4,9 +4,31 @@
   "relative_line_numbers": true,
   "restore_on_startup": "none",
   "project_panel": {
+    "button": false,
     "dock": "right"
   },
   "toolbar": {
-    "quick_actions": false
+    "quick_actions": false,
+    "breadcrumbs": false
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "chat_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "notification_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "assistant": {
+    "button": false,
+    "enabled": false,
+    "version": "1"
+  },
+  "terminal": {
+    "button": false
   }
 }
