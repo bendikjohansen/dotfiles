@@ -1,0 +1,14 @@
+name: "CI"
+
+on: push
+
+jobs:
+  mac:
+    name: Run macOS setup
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run mac.sh
+        run: ./mac.sh
