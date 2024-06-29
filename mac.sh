@@ -6,14 +6,14 @@ if [ ! -d /opt/homebrew ]; then
     echo "Homebrew installed."
 fi
 brew bundle --no-upgrade --no-lock --quiet
-
 if [ ! -d $HOME/.zsh/zsh-autosuggestions ]; then
+    # TODO: Add as a git submodule
     git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh/zsh-autosuggestions
 fi
 
-if ! [ -f /Library/Fonts/HackNerdFontMono-Regular.ttf ]; then
-    wget --output-document /Library/Fonts/hack-nerd-font.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
-    unzip /Library/Fonts/hack-nerd-font.zip -d /Library/Fonts
+if ! [ -f /Library/Fonts/nerd-font.zip ]; then
+    wget --output-document /Library/Fonts/nerd-font.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
+    unzip /Library/Fonts/nerd-font.zip -d /Library/Fonts
 fi
 
 defaults write com.apple.screencapture target -string clipboard
