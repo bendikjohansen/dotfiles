@@ -1,4 +1,8 @@
 {
+  "auto_update_extensions": {
+    "emmet": false
+  },
+  "show_inline_completions": false,
   "theme": "Catppuccin Mocha",
   "vim_mode": true,
   "relative_line_numbers": true,
