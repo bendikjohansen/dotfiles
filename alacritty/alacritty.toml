@@ -1,0 +1,21 @@
+[shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.8
+padding = { x = 8, y = 8 }
+
+[font]
+offset.y = 4
+
+[font.normal]
+family = "JetBrains Mono Nerd Font"
+style = "regular"
+
+[font.bold]
+family = "JetBrains Mono Nerd Font"
+style = "bold"
+
+[font.italic]
+family = "JetBrains Mono Nerd Font"
+style = "italic"
