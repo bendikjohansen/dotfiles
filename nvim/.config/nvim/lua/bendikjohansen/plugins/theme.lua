@@ -1,7 +1,15 @@
 return {
-    "folke/tokyonight.nvim",
+    'maxmx03/solarized.nvim',
     lazy = false,
-    config = function()
-	vim.cmd([[colorscheme tokyonight]])
+    priority = 1000,
+    opts = function()
+	vim.o.termguicolors = true
+	vim.o.background = 'dark'
+	require('solarized').setup({
+	    transparent = {
+		enabled = true
+	    }
+	})
+	vim.cmd.colorscheme 'solarized'
     end
 }
