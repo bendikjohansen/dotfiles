@@ -6,6 +6,7 @@ eval "$(starship init zsh)"
 source <(fzf --zsh)
 
 alias vim=nvim
+alias cat=bat
 
 export HISTFILE="$HOME/.zsh_history"
 export HISTSIZE=10000
