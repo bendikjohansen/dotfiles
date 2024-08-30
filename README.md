@@ -9,7 +9,7 @@ This configuration is meant for macOS.
  4. Execute `./defaults.zsh`
  5. Execute `stow -R aerospace git nvim tmux zsh`
 
-## Mindset 
+## Values 
  - Prefer recommended and default settings for applications
  - Prefer stock applications
- - Development environment should be light weight
+ - Prefer a lightweight development environment
