@@ -1,5 +1,5 @@
-brew "1password-cli"
 brew "bat"
+brew "docker"
 brew "fd"
 brew "fzf"
 brew "gh"
