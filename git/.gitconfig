@@ -4,6 +4,7 @@
 [user]
     name = Bendik Johansen
     email = bendikj@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMO+RSeaHkW78oxBnaKDr7HM7MBpL/pg8hajt2HCHT13
 
 [core]
     pager = delta
@@ -21,3 +22,9 @@
 
 [diff]
     colorMoved = default
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

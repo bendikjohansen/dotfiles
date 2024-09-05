@@ -66,11 +66,6 @@ return {
 		    }),
 		matching = { disallow_symbol_nonprefix_matching = false }
 	    })
-
-	    local capabilities = require('cmp_nvim_lsp').default_capabilities()
-	    require('lspconfig')['omnisharp'].setup {
-		capabilities = capabilities
-	    }
 	end
     }
 }
