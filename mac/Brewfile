@@ -19,13 +19,11 @@ brew "tree"
 brew "zoxide"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
-cask "1password"
 cask "docker"
 cask "dotnet-sdk"
 cask "font-jetbrains-mono-nerd-font"
 cask "nikitabobko/tap/aerospace"
 cask "signal"
 cask "slack"
-mas "1Password for Safari", id: 1_569_813_296
 mas "Vimari", id: 1_480_933_944
 mas "about:blank", id: 1_239_207_203
