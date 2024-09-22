@@ -3,6 +3,7 @@
 PATH=$PATH:/opt/homebrew/bin
 PATH=$PATH:~/dotfiles/bin
 
+export JAVA_HOME="$(brew --prefix openjdk)"
 export NVM_DIR="$HOME/.nvm"
 
 export HISTFILE="$HOME/.zsh_history"
@@ -22,6 +23,5 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
 

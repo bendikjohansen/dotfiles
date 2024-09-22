@@ -66,6 +66,7 @@ return {
 	    clangd = {},
 	    dockerls = {},
 	    html = {},
+	    kotlin_language_server = {},
 	    lua_ls = {
 		settings = {
 		    Lua = {
