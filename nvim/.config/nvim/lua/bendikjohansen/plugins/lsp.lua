@@ -79,6 +79,7 @@ return {
 	    omnisharp = {},
 	    pyright = {},
 	    sqlls = {},
+	    tailwindcss = {},
 	    ts_ls = {},
 	}
 

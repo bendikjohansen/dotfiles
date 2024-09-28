@@ -15,5 +15,9 @@ return {
 	map('<leader>br', '<Cmd>BufferLineCloseRight<CR>', 'Delete buffers to the right')
 	map('<leader>bo', '<Cmd>BufferLineCloseOthers<CR>', 'Delete other buffers')
 	map('<leader>bd', '<Cmd>:bd<CR>', 'Delete buffer')
+	map('<leader>ba', function ()
+	    vim.cmd('BufferLineCloseOthers')
+	    vim.cmd('bd')
+	end, 'Delete all')
     end
 }
