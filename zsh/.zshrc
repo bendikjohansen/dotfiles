@@ -3,6 +3,7 @@
 PATH=$PATH:/opt/homebrew/bin
 PATH=$PATH:~/dotfiles/bin
 
+export XDG_CONFIG_HOME="$HOME/.config"
 export JAVA_HOME="$(brew --prefix openjdk)"
 export NVM_DIR="$HOME/.nvm"
 

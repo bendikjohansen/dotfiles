@@ -18,3 +18,4 @@ require('lazy').setup({
     spec = { import = 'bendikjohansen.plugins' },
     checker = { enabled = true }
 })
+

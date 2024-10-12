@@ -7,5 +7,5 @@ This configuration is meant for macOS.
  2. Navigate to `./mac`
  3. Execute `brew bundle install`
  4. Execute `./defaults.zsh`
- 5. Execute `stow -R aerospace git nvim tmux zsh`
+ 5. Execute `stow -R aerospace alacritty git nvim tmux zsh lazygit`
 
