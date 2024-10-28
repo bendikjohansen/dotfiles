@@ -14,10 +14,8 @@
 [delta]
     navigate = true
     line-numbers = true
+		tabs = 4
 
 [merge]
     conflictstyle = diff3
-
-[diff]
-    colorMoved = default
 
