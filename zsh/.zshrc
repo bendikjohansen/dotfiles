@@ -2,6 +2,7 @@
 
 PATH=$PATH:/opt/homebrew/bin
 PATH=$PATH:~/dotfiles/bin
+PATH="$PATH:/Users/bmj/.dotnet/tools"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export JAVA_HOME="$(brew --prefix openjdk)"
