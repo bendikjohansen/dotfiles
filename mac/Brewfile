@@ -41,6 +41,7 @@ cask "wireshark"
 
 vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
+vscode "mathiasfrohlich.Kotlin"
 vscode "ms-dotnettools.csdevkit"
 vscode "ms-dotnettools.csharp"
 vscode "pflannery.vscode-versionlens"
