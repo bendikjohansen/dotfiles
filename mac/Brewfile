@@ -39,6 +39,8 @@ cask "slack"
 cask "visual-studio-code"
 cask "wireshark"
 
+mas "WireGuard", id: 1451685025
+
 vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
 vscode "mathiasfrohlich.Kotlin"
