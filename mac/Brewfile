@@ -25,6 +25,7 @@ brew "zsh-syntax-highlighting"
 
 cask "1password"
 cask "alacritty"
+cask "anki"
 cask "discord"
 cask "docker"
 cask "dotnet-sdk"
