@@ -1,21 +1,31 @@
 [init]
-    defaultBranch = main
+	defaultBranch = main
 
 [user]
-    name = Bendik Johansen
-    email = bendikj@gmail.com
+	name = Bendik Johansen
+	email = bendikj@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDYGIen2C0vO19Zy1eN+o7Rifaq4KA3tEeHxXOfuS3tR
 
 [core]
-    pager = delta
+	pager = delta
 
 [interactive]
-    diffFilter = delta --color-only
+	diffFilter = delta --color-only
 
 [delta]
-    navigate = true
-    line-numbers = true
-		tabs = 4
+	navigate = true
+	line-numbers = true
+	tabs = 4
 
 [merge]
-    conflictstyle = diff3
+	conflictstyle = diff3
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+	gpgsign = true
 
