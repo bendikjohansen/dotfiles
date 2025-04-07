@@ -36,3 +36,10 @@ killall SystemUIServer
 killall Dock
 killall Finder
 
+###
+# Keyboard
+###
+defaults write -g ApplePressAndHoldEnabled 0
+
+
+# defaults write -g ApplePressAndHoldEnabled 1

@@ -16,6 +16,7 @@
 	navigate = true
 	line-numbers = true
 	tabs = 4
+	side-by-side = false
 
 [merge]
 	conflictstyle = diff3
