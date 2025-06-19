@@ -25,11 +25,8 @@ autoload -Uz compinit && compinit
 source <(fzf --zsh)
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 command -v flux >/dev/null && . <(flux completion zsh)
 
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
 
-
-source /Users/bmj/.config/broot/launcher/bash/br
