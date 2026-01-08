@@ -4,6 +4,7 @@ PATH=$PATH:/opt/homebrew/bin
 PATH=$PATH:~/.dotnet/tools
 PATH=$PATH:~/dotfiles/mac-home/bin
 
+export EDITOR="nvim"
 export XDG_CONFIG_HOME="$HOME/.config"
 export LC_CTYPE="C.UTF-8" 
 export HISTFILE="$HOME/.zsh_history"
