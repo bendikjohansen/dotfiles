@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=KINGDOM HEARTS -HD 1.5+2.5 ReMIX-
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2552430
+Icon=steam_icon_2552430
+Terminal=false
+Type=Application
+Categories=Game;

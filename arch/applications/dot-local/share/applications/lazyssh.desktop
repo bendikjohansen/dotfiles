@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=LazySSH
+Comment=A terminal-based SSH manager inspired by lazydocker and k9s
+Exec=alacritty -t lazyssh -e lazyssh
+Terminal=false
+Categories=System;Settings;
+Icon=bluetooth

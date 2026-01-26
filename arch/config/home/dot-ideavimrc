@@ -1,0 +1,22 @@
+set scrolloff=5
+set incsearch
+set relativenumber
+
+map Q gq
+
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+
+" Tab navigation
+map <S-h> <Action>(PreviousTab)
+map <S-l> <Action>(NextTab)
+
+" Tab closing commands
+map bd <Action>(CloseContent)
+map bo <Action>(CloseAllEditorsButActive)
+map ba <Action>(CloseAllEditors)
+map br <Action>(CloseAllToRight)
+map bl <Action>(CloseAllToLeft)
+
+" Go to implementation
+map gi <Action>(GotoImplementation)

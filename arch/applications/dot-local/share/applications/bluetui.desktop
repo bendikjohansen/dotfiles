@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=bluetui
+Comment=Bluetooth TUI manager
+Exec=alacritty -t bluetui -e bluetui
+Terminal=false
+Categories=System;Settings;
+Icon=bluetooth

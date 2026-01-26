@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=btop
+Comment=Resource monitor
+Exec=alacritty -t btop -e btop
+Terminal=false
+Categories=System;Monitor;
+Icon=btop

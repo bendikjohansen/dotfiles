@@ -1,0 +1,5 @@
+[tools]
+java = "latest"
+kotlin = "latest"
+maven = "latest"
+spring-boot = "latest"

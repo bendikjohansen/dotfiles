@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=lazydocker
+Comment=A simple terminal UI for docker and docker-compose
+Exec=alacritty -t lazydocker -e lazydocker
+Terminal=false
+Categories=Development;Docker;
+Icon=docker
