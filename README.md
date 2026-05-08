@@ -1,8 +1,9 @@
-# Dotfiles
-
-Configuration and setup for different systems.
+<div align="center"><h1>dotfiles</h1></div>
+<div align="center">
+    <p>by <b>Bendik Johansen</b></p>
+</div>
+<hr />
 
 ## Systems
 
-* [mac](MAC.md)
-* [arch](arch.md)
+- [Mac](/docs/mac.md)
