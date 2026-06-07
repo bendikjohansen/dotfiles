@@ -1,8 +1,0 @@
-[tools]
-java = "latest"
-kotlin = "latest"
-lazygit = "latest"
-maven = "latest"
-spring-boot = "latest"
-lazydocker = "latest"
-lazyssh = "latest"
