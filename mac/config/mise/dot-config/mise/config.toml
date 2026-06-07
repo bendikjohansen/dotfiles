@@ -1,0 +1,8 @@
+[tools]
+dotnet = "latest"
+dprint = "latest"
+go = "latest"
+java = "21"
+maven = "latest"
+node = "latest"
+rust = "latest"

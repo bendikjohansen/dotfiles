@@ -7,10 +7,8 @@ fi
 
 # Install programs
 brew bundle install
-mise use -g node
-mise use -g dotnet
-mise use -g java@21
+mise install
 
 # Stow dotfiles
-stow -R --dotfiles --ignore=.DS_Store --target ~ --dir=config home lazygit nvim aerospace tmux
+stow -R --dotfiles --ignore=.DS_Store --target ~ --dir=config home lazygit nvim aerospace tmux mise
 stow -R --ignore=.DS_Store --target ~/.local/bin --dir=.. bin
