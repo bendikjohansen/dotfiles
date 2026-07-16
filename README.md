@@ -7,3 +7,4 @@
 ## Systems
 
 - [Mac](/docs/mac.md)
+- [Fedora](/docs/fedora.md)
