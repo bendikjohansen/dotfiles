@@ -1,0 +1,9 @@
+configuration {
+    show-icons: true;
+    icon-theme: "Adwaita";
+    display-drun: "Apps";
+    display-run: "Run";
+    display-combi: "Search";
+}
+
+@theme "gruvbox"

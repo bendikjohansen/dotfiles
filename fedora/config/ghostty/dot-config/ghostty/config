@@ -1,0 +1,10 @@
+theme = Gruvbox Dark
+
+# vim-style split navigation
+# ctrl+shift, not plain ctrl (LazyVim's nvim uses ctrl+hjkl for its own window
+# nav) and not super (sway's $mod+hjkl already switches focus between windows,
+# and grabs the combo at the compositor level before ghostty ever sees it)
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+j=goto_split:down
+keybind = ctrl+shift+k=goto_split:up
+keybind = ctrl+shift+l=goto_split:right

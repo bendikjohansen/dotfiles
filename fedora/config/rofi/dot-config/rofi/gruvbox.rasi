@@ -1,0 +1,101 @@
+/* Gruvbox Dark palette (matches waybar/sway) */
+* {
+    bg0:      #1d2021;
+    bg1:      #3c3836;
+    bg2:      #504945;
+    fg1:      #ebdbb2;
+    fg3:      #bdae93;
+    gray:     #928374;
+    red:      #fb4934;
+    aqua:     #8ec07c;
+    orange:   #fe8019;
+
+    background-color:           transparent;
+    text-color:                 @fg1;
+
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+window {
+    background-color: @bg0;
+    border:           2px;
+    border-color:     @aqua;
+    border-radius:    10px;
+    width:            32%;
+    padding:          16px;
+    location:         center;
+}
+
+mainbox {
+    background-color: transparent;
+    spacing:           10px;
+    children:           [ "inputbar", "listview" ];
+}
+
+inputbar {
+    background-color: @bg1;
+    text-color:        @fg1;
+    border-radius:      8px;
+    padding:             8px 12px;
+    spacing:              8px;
+    children:              [ "prompt", "entry" ];
+}
+
+prompt {
+    text-color: @orange;
+}
+
+entry {
+    text-color:       @fg1;
+    placeholder-color: @gray;
+    placeholder:        "Search";
+}
+
+listview {
+    background-color: transparent;
+    lines:              8;
+    spacing:            4px;
+    scrollbar:           false;
+    cycle:                true;
+}
+
+element {
+    background-color: transparent;
+    text-color:         @fg3;
+    padding:             8px 10px;
+    border-radius:        6px;
+    spacing:              8px;
+}
+
+element selected {
+    background-color: @bg2;
+    text-color:         @aqua;
+}
+
+element-icon {
+    size: 1.1em;
+    vertical-align: 0.5;
+}
+
+element-text {
+    vertical-align: 0.5;
+}
+
+message {
+    background-color: @bg1;
+    border-radius:      8px;
+    padding:             8px;
+}
+
+textbox {
+    text-color: @fg1;
+}
+
+error-message {
+    background-color: @bg0;
+    text-color:         @red;
+    border:              2px;
+    border-color:        @red;
+    border-radius:        10px;
+    padding:               12px;
+}

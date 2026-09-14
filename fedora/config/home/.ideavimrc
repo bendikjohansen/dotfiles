@@ -1,0 +1,24 @@
+set scrolloff=5
+set incsearch
+set number
+set relativenumber
+map Q gq
+
+Plug 'machakann/vim-highlightedyank'
+Plug 'tpope/vim-commentary'
+
+let mapleader = " "
+nmap H :action PreviousTab<CR>
+nmap L :action NextTab<CR>
+nmap <leader>bd :action CloseEditor<CR>
+nmap <leader>ba :action CloseAllEditors<CR>
+nmap <leader>br :action CloseAllToTheRight<CR>
+nmap <leader>bl :action CloseAllToTheLeft<CR>
+nmap <leader>bo :action CloseAllEditorsButActive<CR>
+nmap gI :action GotoImplementation<CR>
+
+nmap <leader>cr :action RenameElement<CR>
+nnoremap <leader>gb :action Annotate<CR>
+
+nmap ]d :action GotoNextError<CR>
+nmap [d :action GotoPreviousError<CR>

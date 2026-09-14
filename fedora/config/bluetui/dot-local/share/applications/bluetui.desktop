@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Bluetui
+Comment=Bluetooth TUI manager
+Exec=ghostty --class=bluetui -e /home/bmj/.cargo/bin/bluetui
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=false
