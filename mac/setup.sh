@@ -10,5 +10,5 @@ brew bundle install
 mise install
 
 # Stow dotfiles
-stow -R --dotfiles --ignore=.DS_Store --target ~ --dir=config home lazygit nvim aerospace tmux mise herdr
+stow -R --dotfiles --ignore=.DS_Store --target ~ --dir=config home lazygit nvim aerospace tmux mise herdr ghostty opencode
 stow -R --ignore=.DS_Store --target ~/.local/bin --dir=.. bin

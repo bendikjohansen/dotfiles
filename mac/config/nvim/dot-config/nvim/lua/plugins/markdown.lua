@@ -38,7 +38,7 @@ return {
 
       defer_to_dprint("prettier")
       defer_to_dprint("markdownlint-cli2")
-      defer_to_dprint("markdown-toc")
+      -- defer_to_dprint("markdown-toc")
 
       opts.formatters_by_ft = opts.formatters_by_ft or {}
       opts.formatters_by_ft.markdown = { "dprint", "prettier", "markdownlint-cli2", "markdown-toc" }
