@@ -1,6 +1,7 @@
 [tools]
-claude-code = "latest"
 github-cli = "latest"
+herdr = "latest"
+opencode = "latest"
 rust = "stable"
 starship = "latest"
 usage = "latest"

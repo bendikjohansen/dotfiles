@@ -14,9 +14,9 @@ set $rofi_cmd rofi -terminal '$term'
 
 set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
 
-output * bg /usr/share/backgrounds/default.jxl fill
+# exec mako
 
-### Colors (Gruvbox Dark, matches waybar theme)
+### Theme (Gruvbox Dark, matches waybar theme)
 #
 set $bg0    #1d2021
 set $bg1    #3c3836
@@ -39,11 +39,17 @@ client.background       $bg0
 default_border pixel 2
 default_floating_border pixel 2
 
+gaps inner 8
+
 ### Key bindings
 
 bindsym $mod+Return exec $term
+bindsym $mod+Ctrl+Return exec gtk-launch todo
 bindsym $mod+Ctrl+b exec gtk-launch bluetui
+bindsym $mod+Ctrl+t exec gtk-launch btop
+bindsym $mod+Shift+s exec flameshot gui
 bindsym $mod+Ctrl+v exec ~/.local/bin/vm-launcher.sh
+bindsym $mod+Ctrl+Space exec 1password --quick-access
 
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec $menu
@@ -70,6 +76,8 @@ input "type:keyboard" {
   }
 
 output * bg ~/Pictures/wallpaper-1.jpg fill
+output HDMI-A-1 mode --custom 3024x1890@60Hz
+output HDMI-A-1 scale 1.5
 
 # Moving around:
 
@@ -137,5 +145,7 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+for_window [app_id="todo"] move scratchpad
 
 include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "/etc/sway/config.d/*.conf" "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf")'

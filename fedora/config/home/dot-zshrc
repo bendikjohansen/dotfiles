@@ -26,5 +26,7 @@ bindkey -e
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 source <(fzf --zsh)
+
+eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"

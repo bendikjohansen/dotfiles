@@ -77,9 +77,8 @@
         "spacing": 12,
     },
     "clock": {
-        // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format": "{:%m-%d %H:%M}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
