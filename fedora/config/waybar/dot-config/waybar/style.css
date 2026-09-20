@@ -41,6 +41,7 @@ tooltip label {
 #scratchpad,
 #custom-media,
 #pulseaudio,
+#battery,
 #clock,
 #tray,
 #custom-power {
@@ -108,6 +109,18 @@ tooltip label {
 
 #pulseaudio.muted {
     color: @gray;
+}
+
+#battery {
+    color: @aqua;
+}
+
+#battery.warning {
+    color: @yellow;
+}
+
+#battery.critical {
+    color: @red;
 }
 
 #clock {

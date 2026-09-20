@@ -12,6 +12,7 @@
     ],
     "modules-right": [
         "pulseaudio",
+        "battery",
         "clock",
         "tray",
         "custom/power"
@@ -79,6 +80,16 @@
     "clock": {
         "format": "{:%m-%d %H:%M}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% 󰂄",
+        "format-plugged": "{capacity}% ",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
