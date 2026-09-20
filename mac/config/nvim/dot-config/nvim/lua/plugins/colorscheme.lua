@@ -1,14 +1,10 @@
 return {
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    opts = { flavour = "mocha" },
-  },
+  { "ellisonleao/gruvbox.nvim", opts = { contrast = "hard" } },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "gruvbox",
     },
   },
 }
