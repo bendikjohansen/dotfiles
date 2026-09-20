@@ -1,6 +1,7 @@
 [tools]
 github-cli = "latest"
 herdr = "latest"
+lazygit = "latest"
 opencode = "latest"
 rust = "stable"
 starship = "latest"

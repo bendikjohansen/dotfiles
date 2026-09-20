@@ -75,9 +75,7 @@ input "type:keyboard" {
     xkb_options "grp:shifts_toggle"
   }
 
-output * bg ~/Pictures/wallpaper-1.jpg fill
-output HDMI-A-1 mode --custom 3024x1890@60Hz
-output HDMI-A-1 scale 1.5
+output * bg ~/Pictures/wallpaper-1.png fill
 
 # Moving around:
 
