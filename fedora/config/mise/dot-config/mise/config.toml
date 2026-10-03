@@ -1,8 +1,8 @@
 [tools]
+cliamp = "latest"
 github-cli = "latest"
 herdr = "latest"
 lazygit = "latest"
-opencode = "latest"
-rust = "stable"
+pi = "latest"
 starship = "latest"
 usage = "latest"
