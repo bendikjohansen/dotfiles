@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Bluetui
+Comment=A resource monitor that shows information about the CPU, memory, disks, network and processes.
+Exec=ghostty --class=bluetui -e /usr/bin/btop
+Terminal=false
+Type=Application
+Categories=Utility;
+StartupNotify=false
