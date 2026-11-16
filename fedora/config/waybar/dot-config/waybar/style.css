@@ -14,7 +14,7 @@
 @define-color orange   #fe8019;
 
 * {
-    font-family: "JetBrainsMono Nerd Font", "monospace";
+    font-family: "Cascadia Code NF", "Helvetica";
     font-size: 13px;
     min-height: 0;
 }

@@ -48,8 +48,8 @@ bindsym $mod+Ctrl+Return exec gtk-launch todo
 bindsym $mod+Ctrl+b exec gtk-launch bluetui
 bindsym $mod+Ctrl+t exec gtk-launch btop
 bindsym $mod+Shift+s exec flameshot gui
-bindsym $mod+Ctrl+v exec ~/.local/bin/vm-launcher.sh
 bindsym $mod+Ctrl+Space exec 1password --quick-access
+bindsym $mod+Ctrl+c exec hyprpicker -a -f hsl -s 8
 
 bindsym $mod+Shift+q kill
 bindsym $mod+d exec $menu

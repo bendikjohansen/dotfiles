@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "mise",
+      "args": ["exec", "npm:@playwright/mcp", "--", "playwright-mcp", "--headless", "--isolated"],
+      "exposure": "deferred",
+      "description": "Inspect and interact with local web previews, including desktop and mobile screenshots."
+    }
+  }
+}
